@@ -1,8 +1,8 @@
 # API Keys
 api_keys:
-  openai: "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"  # Your OpenAI API key
-  newsapi: "a5cd0f8bbe4b4e43a57880e3ba95d001"  # Your NewsAPI key
-  alpha_vantage: "NTFW3GI4Z2AEQVMP"  # Your Alpha Vantage API key
+  openai: "Your OpenAI API key"
+  newsapi: "Your NewsAPI key"
+  alpha_vantage: "Your Alpha Vantage API key" 
 
 # News Collection
 news:
