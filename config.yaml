@@ -1,0 +1,48 @@
+# API Keys
+api_keys:
+  openai: "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"  # Your OpenAI API key
+  newsapi: "a5cd0f8bbe4b4e43a57880e3ba95d001"  # Your NewsAPI key
+  alpha_vantage: "NTFW3GI4Z2AEQVMP"  # Your Alpha Vantage API key
+
+# News Collection
+news:
+  sources:
+    - "bloomberg"
+    - "reuters"
+    - "financial-times"
+    - "wall-street-journal"
+  update_interval: 3600  # in seconds
+  max_articles: 100
+
+# Market Data
+market:
+  symbols:
+    - "AAPL"
+    - "MSFT"
+    - "GOOGL"
+    - "AMZN"
+    - "META"
+  interval: "1d"
+  period: "1y"
+
+# LLM Settings
+llm:
+  model: "gpt-3.5-turbo"
+  temperature: 0.7
+  max_tokens: 500
+
+# Model Settings
+models:
+  sentiment:
+    threshold: 0.6
+    batch_size: 32
+  prediction:
+    lookback_days: 30
+    prediction_days: 7
+    confidence_threshold: 0.8
+
+# Application Settings
+app:
+  debug: false
+  port: 8501
+  theme: "light" 
